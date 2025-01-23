@@ -1,0 +1,158 @@
+@media(max-width:1399px){
+	
+	.container{
+		max-width:1140px;
+	}
+	
+}
+
+@media(max-width:1199px){
+	
+	.container{
+		max-width:960px;
+	}
+	
+}
+
+@media(max-width:991px){
+	
+	.container{
+		max-width:720px;
+	}
+	
+	.col-md-6{
+		width:50%;
+	}
+	
+	/* HEADER */
+	
+	header nav{
+		position:absolute;
+		top:100%;
+		left:0;
+		right:0;
+	}
+	
+	header nav ul{
+		flex-direction:column;
+		background-color:red;
+	}
+	
+	header nav ul li{
+		padding:15px 0;
+		display:none;
+	}
+	
+	header nav ul a{
+		display:block;
+	}
+	
+	/* services */
+
+	.products .product-inner:not(:last-child) .product-item{
+		margin-bottom:10px;
+	}
+	
+	/* deal */
+	
+	.col-md-12{
+		width:100%;
+	}
+	
+	/* about */
+	
+	.col-md-12{
+		width:100%;
+	}
+	
+	.about-content
+	
+	/* news */
+	
+	.col-md-6{
+		width:50%;
+	}
+	
+	/* footer */
+	
+	.col-md-4{
+		width:33.33%;
+	}
+}
+
+@media(max-width:767px){
+	
+	.container{
+		max-width:540px;
+	}
+	
+	/* services */
+	
+	.col-md-6{
+		width:50%;
+	}
+	
+	/* banner */
+	
+	.banner-content h1{
+		font-size:50px;
+		color:#F28123; 
+	}
+		
+	.banner{
+		height:650px;
+	}
+	/* news */
+	
+	.col-md-12{
+		width:100%;
+	}
+	
+	/* clients */
+	
+	.col-md-4{
+		width:33.33%
+	}
+	
+	/* footer */
+	
+	.col-md-6{
+		width:50%;
+	}
+}
+
+@media(max-width:575px){
+	
+	.container{
+		max-width:100%;
+	}
+	
+	/* services */
+	
+	.col-xs-12{
+		width:100%;
+	}
+	
+	/* banner */
+	
+	.banner-content h1{
+		font-size:40px;
+	}
+	
+	.banner{
+		height:500px;
+	}	
+
+	/* clients */
+	
+	.col-xs-12{
+		width:100%;
+	}
+	
+	/* footer */
+	
+	.col-md-12{
+		width:100%;
+	}
+	
+}
